@@ -8,7 +8,7 @@ const colors= ['#343a40', '#f03e3e', '#12b886', '#228ae6'];
 
 class App extends Component{
 
-  id = 3 //이미 0,1,2 가 존재하므로 3으로 설정
+  id = 4 //이미 0,1,2 가 존재하므로 3으로 설정
 
   state = {
     input: '',
@@ -16,6 +16,7 @@ class App extends Component{
       { id: 0, text: ' 리액트 소개', checked: true},
       { id: 1, text: ' JSX 사용해보기', checked: false},
       { id: 2, text: ' 라이프 사이클 이해하기', checked: false},
+      { id: 3, text: ' GIT 연동하기', checked: false},
     ],
     color: '#343a40'
   }
